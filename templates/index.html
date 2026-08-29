@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Driving Services AI Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+
+<body>
+
+    <div class="page-container">
+
+        <div class="chat-container">
+
+            <!-- ================= HEADER ================= -->
+
+            <div class="chat-header">
+
+                <div class="header-left">
+
+                    <div class="header-icon">
+                        🚘
+                    </div>
+
+                    <div class="header-info">
+
+                        <h1>
+                            Driving Services AI Assistant
+                        </h1>
+
+                        <div class="status">
+
+                            <span class="status-dot"></span>
+
+                            <span>Online</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    id="clearChatButton"
+                    class="clear-chat-btn"
+                    type="button">
+
+                    🗑 Clear
+
+                </button>
+
+            </div>
+
+
+            <!-- ================= CHAT AREA ================= -->
+
+            <div
+                class="chat-box"
+                id="chatBox">
+
+
+                <!-- WELCOME -->
+
+                <div class="welcome-section">
+
+                    <div class="welcome-icon">
+                        👋
+                    </div>
+
+                    <h2>
+                        Hello! How can I help you?
+                    </h2>
+
+                    <p>
+                        Ask me anything about driving licence services,
+                        applications, documents, renewal, fees and more.
+                    </p>
+
+                </div>
+
+
+                <!-- FIRST BOT MESSAGE -->
+
+                <div class="message bot-message">
+
+                    <div class="message-content">
+
+                        Hello! I'm your Government Driving Services AI Assistant.
+                        Ask me anything about driving licence services.
+
+                    </div>
+
+                    <span class="timestamp">
+                        Now
+                    </span>
+
+                </div>
+
+
+                <!-- SUGGESTED QUESTIONS -->
+
+                <div
+                    class="suggested-questions"
+                    id="suggestedQuestions">
+
+
+                    <button
+                        type="button"
+                        class="suggestion-btn"
+                        data-message="How do I apply for a driving license?">
+
+                        How do I apply for a driving license?
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="suggestion-btn"
+                        data-message="What documents do I need?">
+
+                        What documents do I need?
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="suggestion-btn"
+                        data-message="How do I get a learner license?">
+
+                        How do I get a learner license?
+
+                    </button>
+
+
+                </div>
+
+            </div>
+
+
+            <!-- ================= QUICK ACTIONS ================= -->
+
+            <div class="quick-actions">
+
+                <button
+                    type="button"
+                    class="quick-btn"
+                    data-message="How do I apply for a driving license?">
+
+                    🚘 Apply for Licence
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="quick-btn"
+                    data-message="What documents do I need?">
+
+                    📄 Required Documents
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="quick-btn"
+                    data-message="How much does it cost?">
+
+                    💰 Licence Fees
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="quick-btn"
+                    data-message="How do I renew my license?">
+
+                    🔄 Renew Licence
+
+                </button>
+
+            </div>
+
+
+            <!-- ================= INPUT ================= -->
+
+            <div class="input-container">
+
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Ask about driving licence, renewal, documents..."
+                    autocomplete="off">
+
+
+                <button
+                    type="button"
+                    id="sendButton">
+
+                    Send
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

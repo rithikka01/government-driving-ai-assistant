@@ -1,0 +1,123 @@
+[
+  {
+    "topic": "minimum_age",
+    "keywords": [
+      "minimum age",
+      "age to apply",
+      "how old",
+      "eligible age",
+      "driving age"
+    ],
+    "answer": "The minimum age depends on the type of vehicle and licence category. In general, applicants must meet the age requirement specified for the vehicle category before applying for a learner or driving licence."
+  },
+  {
+    "topic": "learner_licence",
+    "keywords": [
+      "learner licence",
+      "learner license",
+      "llr",
+      "eligibility for learner licence",
+      "apply learner licence"
+    ],
+    "answer": "To apply for a learner licence, you generally need to meet the required age criteria, submit identity and address proof, complete the application, and pass the learner licence test where applicable."
+  },
+  {
+    "topic": "driving_licence_application",
+    "keywords": [
+      "apply driving licence",
+      "new driving licence",
+      "get driving licence",
+      "driving licence process",
+      "how to get licence"
+    ],
+    "answer": "To apply for a driving licence, you generally need to complete the required learner licence process, submit the application and documents, book a driving test if required, pass the test, and wait for the licence to be issued."
+  },
+  {
+    "topic": "driving_test",
+    "keywords": [
+      "book driving test",
+      "driving test",
+      "schedule test",
+      "test appointment",
+      "take driving test"
+    ],
+    "answer": "You can generally book a driving test after meeting the eligibility requirements for your licence category. The process usually involves selecting an available appointment, completing the required details, and attending the test at the assigned location."
+  },
+  {
+    "topic": "lost_licence",
+    "keywords": [
+      "lost licence",
+      "lost driving licence",
+      "lost my dl",
+      "duplicate licence",
+      "replace licence"
+    ],
+    "answer": "If you lose your driving licence, you can generally apply for a duplicate or replacement licence through the relevant transport authority. You may need identity proof, application details, and other supporting documents depending on local requirements."
+  },
+  {
+    "topic": "licence_renewal",
+    "keywords": [
+      "renew licence",
+      "licence expired",
+      "driving licence renewal",
+      "renew driving licence",
+      "expiry"
+    ],
+    "answer": "If your driving licence is expiring or has expired, you can generally apply for renewal through the relevant transport authority. You may need to provide your licence details, required documents, and pay the applicable renewal fee."
+  },
+  {
+    "topic": "required_documents",
+    "keywords": [
+      "documents",
+      "required documents",
+      "what papers",
+      "what proof",
+      "documents needed",
+      "proof while applying"
+    ],
+    "answer": "Commonly requested documents may include proof of identity, proof of address, proof of age, passport-size photographs where required, application forms, and supporting documents related to the specific driving licence service."
+  },
+  {
+    "topic": "licence_fees",
+    "keywords": [
+      "fees",
+      "charges",
+      "cost",
+      "how much",
+      "licence fee",
+      "renewal fee"
+    ],
+    "answer": "Driving licence fees can vary depending on the service you need, such as a learner licence, new driving licence, driving test, renewal, or duplicate licence. Please check the applicable fee for your specific service through the relevant transport authority."
+  },
+  {
+    "topic": "application_status",
+    "keywords": [
+      "application status",
+      "track application",
+      "where is my application",
+      "check status",
+      "application tracking"
+    ],
+    "answer": "You can generally check your driving licence application status using your application number or other requested details through the relevant transport authority's application tracking service."
+  },
+  {
+    "topic": "address_change",
+    "keywords": [
+      "change address",
+      "update address",
+      "wrong address",
+      "address on licence"
+    ],
+    "answer": "To update the address on your driving licence, you generally need to submit a request along with proof of your new address and any other required supporting documents."
+  },
+  {
+    "topic": "international_driving_permit",
+    "keywords": [
+      "international driving permit",
+      "international licence",
+      "drive abroad",
+      "idp"
+    ],
+    "answer": "An International Driving Permit may be required when driving in certain foreign countries. Eligibility and required documents can vary, so you should check the requirements of the relevant transport authority and destination country."
+  }
+]

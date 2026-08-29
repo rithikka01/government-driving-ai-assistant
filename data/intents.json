@@ -1,0 +1,215 @@
+{
+  "intents": [
+    {
+      "tag": "renew_license",
+      "patterns": [
+        "I need to renew my DL",
+        "How do I renew my driving licence",
+        "My driving licence is expired",
+        "My licence has expired",
+        "I want to renew my licence",
+        "DL renewal",
+        "How can I renew my DL",
+        "My licence will expire soon",
+        "Renew driving license",
+        "What is the process for licence renewal"
+      ],
+      "responses": [
+        "If your driving licence is expiring or has expired, you can generally apply for renewal through the relevant transport authority.\n\nThe usual process may include:\n\n1. Select the driving licence renewal service.\n2. Enter your licence details.\n3. Submit the required documents.\n4. Pay the applicable renewal fee.\n5. Complete any required verification or additional formalities.\n\nRequirements may vary depending on your licence type and expiry status."
+      ]
+    },
+    {
+      "tag": "loss_license",
+      "patterns": [
+        "My DL is missing",
+        "I lost my driving licence",
+        "My driving licence is lost",
+        "I need a duplicate licence",
+        "How do I get a duplicate DL",
+        "My licence was stolen",
+        "I cannot find my driving licence",
+        "Lost licence",
+        "Duplicate driving licence",
+        "My DL is lost"
+      ],
+      "responses": [
+        "If you have lost your driving licence, you can generally apply for a duplicate licence.\n\nThe process may include:\n\n1. Select the duplicate driving licence service.\n2. Provide your licence or personal details.\n3. Submit the required supporting documents.\n4. Pay the applicable fee.\n5. Complete any required verification.\n\nCheck the exact requirements with the relevant transport authority."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "How much do I need to pay",
+        "How much does a driving licence cost",
+        "What are the licence fees",
+        "How much is the renewal fee",
+        "What is the cost",
+        "DL fees",
+        "Driving licence price",
+        "How much money do I need",
+        "Fee for driving licence",
+        "What are the charges"
+      ],
+      "responses": [
+        "Driving licence fees can vary depending on the service you need.\n\nFees may differ for:\n\n• Learner licence applications\n• Driving licence applications\n• Driving tests\n• Licence renewal\n• Duplicate licence services\n\nPlease check the latest applicable fee for your specific service through the relevant official transport authority."
+      ]
+    },
+    {
+      "tag": "application_status",
+      "patterns": [
+        "What is the status of my application",
+        "Track my application",
+        "Where is my driving licence application",
+        "How can I check my application status",
+        "Application status",
+        "Track driving licence",
+        "Check DL application",
+        "Is my application approved",
+        "Where is my licence",
+        "I want to know my application status"
+      ],
+      "responses": [
+        "You can usually check your driving licence application status using your application number.\n\nTypically, you may need to:\n\n1. Open the application status or tracking service.\n2. Enter your application number or requested details.\n3. Submit the information.\n4. View the current status of your application.\n\nKeep your application number safe, as it is commonly required for tracking."
+      ]
+    },
+    {
+      "tag": "apply_license",
+      "patterns": [
+        "How do I apply for a driving license",
+        "I want to apply for driving licence",
+        "Apply for DL",
+        "How can I get a driving licence",
+        "New driving licence",
+        "I need a driving licence",
+        "How do I make a DL application",
+        "Driving licence application",
+        "I want to get my licence",
+        "Apply for licence"
+      ],
+      "responses": [
+        "To apply for a driving licence, the process generally involves the following steps:\n\n1. Apply for the appropriate licence service.\n2. Fill in your personal and required details.\n3. Upload or submit the required documents.\n4. Pay the applicable fee.\n5. Complete any required test or verification.\n6. Track your application status after submission.\n\nThe exact process may vary depending on your location and licence category."
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents do I need",
+        "Documents required for driving licence",
+        "What documents are needed for DL",
+        "Required documents",
+        "What should I bring",
+        "What proof do I need",
+        "Driving licence documents",
+        "Documents for renewal",
+        "Documents for learner licence",
+        "What are the required papers"
+      ],
+      "responses": [
+        "The documents required can depend on the service you are applying for.\n\nCommonly requested documents may include:\n\n• Proof of identity\n• Proof of address\n• Age proof\n• Passport-size photographs, where required\n• Existing driving licence for renewal or duplicate services\n• Application or reference details\n\nPlease check the exact requirements for your specific driving licence service."
+      ]
+    },
+    {
+      "tag": "learner_license",
+      "patterns": [
+        "How do I get a learner license",
+        "I want a learner licence",
+        "Apply for learner licence",
+        "How can I get LL",
+        "Learner license process",
+        "What is learner licence",
+        "I need learner licence",
+        "How to apply for LL"
+      ],
+      "responses": [
+        "To get a learner licence, you generally need to apply for the learner licence service and provide the required details and documents.\n\nThe process may include:\n\n1. Select the learner licence service.\n2. Enter your personal details.\n3. Submit the required documents.\n4. Pay the applicable fee.\n5. Complete any required learner test or verification.\n\nAfter approval, you can proceed according to the applicable rules for obtaining a permanent driving licence."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "How old do I need to be to get a licence?",
+        "What is the minimum age for a driving licence?",
+        "What age can I get a driving licence?",
+        "Am I eligible for a driving licence?",
+        "Who can apply for a driving licence?",
+        "What are the eligibility requirements?",
+        "Can I apply for a driving licence?",
+        "What is the age requirement for a driving licence?",
+        "How old do I have to be to drive?",
+        "Driving licence eligibility"
+      ],
+      "responses": [
+        "Eligibility for a driving licence generally depends on your age, vehicle category and applicable transport rules.\n\nCommon requirements may include:\n\n• Meeting the minimum age requirement\n• Meeting the requirements for the selected vehicle category\n• Holding a valid learner licence where required\n• Completing the required tests or verification\n• Providing the necessary documents\n\nThe exact eligibility requirements may vary depending on the vehicle category and applicable transport authority rules."
+      ]
+    },
+    {
+      "tag": "international_driving",
+      "patterns": [
+        "I want to drive abroad",
+        "Can I drive in another country",
+        "How can I drive abroad",
+        "I want to drive internationally",
+        "Do I need an international driving permit",
+        "How do I get an international driving permit",
+        "International driving licence",
+        "International driving permit",
+        "Can I use my driving licence abroad",
+        "Driving licence for foreign countries"
+      ],
+      "responses": [
+        "If you want to drive in another country, you may need an International Driving Permit (IDP) along with your valid driving licence.\n\nThe process may include:\n\n1. Check whether the destination country requires an IDP.\n2. Ensure your driving licence is valid.\n3. Apply for an International Driving Permit through the appropriate authority.\n4. Provide the required documents.\n5. Pay the applicable fee.\n\nRequirements can vary depending on the destination country, so check the applicable rules before travelling."
+      ]
+    },
+    {
+      "tag": "address_change",
+      "patterns": [
+        "How do I change my address on my driving licence",
+        "I want to change my address",
+        "How can I update my address",
+        "Change address on driving licence",
+        "Update address on DL",
+        "My address has changed",
+        "I moved to a new address",
+        "How do I update my licence address",
+        "Address change for driving licence",
+        "Can I change my address on my licence"
+      ],
+      "responses": [
+        "If you need to change the address on your driving licence, you can generally apply for an address change or update through the relevant transport authority.\n\nThe process may include:\n\n1. Select the address change or update service.\n2. Enter your driving licence details.\n3. Provide the required address proof.\n4. Submit the application and supporting documents.\n5. Pay any applicable fee.\n6. Complete any required verification.\n\nThe exact requirements may vary depending on your location and transport authority."
+      ]
+    },
+    {
+      "tag": "driving_test",
+      "patterns": [
+        "Can I book an appointment for my driving test",
+        "How can I book my driving test",
+        "I want to book a driving test",
+        "Book driving test",
+        "Schedule my driving test",
+        "How do I schedule a driving test",
+        "Driving test appointment",
+        "Can I schedule my driving test",
+        "I need a driving test appointment",
+        "Where can I book my driving test"
+      ],
+      "responses": [
+        "Yes, you can generally schedule a driving test appointment through the relevant transport authority.\n\nThe process may include:\n\n1. Open the driving test or appointment service.\n2. Enter your licence or application details.\n3. Select the available test centre and date.\n4. Choose an available appointment slot.\n5. Confirm the appointment.\n\nAvailability and appointment procedures may vary depending on your location and licence category."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you",
+        "Hello chatbot"
+      ],
+      "responses": [
+        "Hello! 👋 I'm your Driving Services AI Assistant. I can help you with driving licence applications, renewal, lost licences, documents, fees, learner licences and application status."
+      ]
+    }
+  ]
+}
