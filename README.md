@@ -1,77 +1,83 @@
-# Government Driving Services AI Assistant
+# Government Driving Services AI Assistant 🚗
 
-## Overview
+A web-based AI-style assistant that helps users find information about government driving licence services through a simple conversational interface.
 
-A web-based AI-style assistant that helps users find information about government driving licence services.
+## 🚀 Live Demo
 
-## Features
+👉 **[Try the Government Driving Services AI Assistant](https://government-driving-ai-assistant.vercel.app/)**
 
-- Driving licence application guidance
-- Learner licence information
-- Driving test information
-- Licence renewal
-- Lost/duplicate licence guidance
-- Required documents
-- Licence fees
-- Application status tracking
-- Address change information
-- Minimum age and eligibility
-- International Driving Permit information
-- Intent detection
-- Knowledge-base retrieval
-- Confidence score
-- Fallback handling
-- Official Sarathi portal link
-- Quick-action buttons
-- Chat history clearing
+The application is deployed and accessible online using Vercel.
 
-## Technologies Used
+---
 
-- Python
-- Flask
-- HTML
-- CSS
-- JavaScript
-- JSON
-- Natural-language intent matching
+## 📌 Overview
 
-## Project Structure
+The **Government Driving Services AI Assistant** is a web-based conversational assistant designed to help users quickly find information related to driving licence services.
 
-government-driving-ai-assistant/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   ├── intents.json
-│   └── driving_knowledge.json
-│
-├── static/
-│   ├── script.js
-│   └── style.css
-│
-└── templates/
-    └── index.html
+The assistant understands common driving licence-related questions, identifies the user's intent, retrieves relevant information from a structured knowledge base, and provides a simple response through a chat-based interface.
 
-## How to Run
+It also provides a link to the official **Sarathi Parivahan Portal** for relevant services.
 
-Install the dependency:
+---
 
-pip install -r requirements.txt
+## ✨ Features
 
-Run the application:
+- 🚗 Driving licence application guidance
+- 🪪 Learner licence information
+- 📝 Driving test information
+- 🔄 Licence renewal guidance
+- 📄 Lost or duplicate licence guidance
+- 📑 Required documents information
+- 💰 Licence fee information
+- 🔎 Application status information
+- 📍 Address change information
+- 🎂 Minimum age and eligibility information
+- 🌍 International Driving Permit information
+- 🧠 Natural-language intent detection
+- 📚 Knowledge-base retrieval
+- 📊 Intent and confidence information
+- 🛡️ Fallback handling for unsupported questions
+- 🔗 Official Sarathi Parivahan Portal link
+- ⚡ Quick-action buttons
+- 🧹 Chat history clearing
+- 🌐 Live web deployment using Vercel
 
-python app.py
+---
 
-Open the browser:
+## 🛠️ Technologies Used
 
-http://127.0.0.1:5000/
+- **Python**
+- **Flask**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **JSON**
+- **Natural-language intent matching**
+- **Vercel**
 
-## Official Portal
+---
 
-The assistant provides access to the official Sarathi Parivahan portal for relevant driving licence services.
+## 🏗️ Project Architecture
 
-## Project Status
+The application follows a simple Flask-based architecture:
 
-Completed and ready for demonstration.
+```text
+User
+  │
+  ▼
+Web Interface
+  │
+  ▼
+JavaScript Chat Handler
+  │
+  ▼
+Flask Backend
+  │
+  ├── Intent Detection
+  │
+  ├── Knowledge Base Retrieval
+  │
+  └── Response Generation
+  │
+  ▼
+Chat Response
