@@ -56,7 +56,6 @@ It also provides users with access to the official **Sarathi Parivahan Portal** 
 - **Vercel**
 
 ---
-
 ## 🏗️ Project Architecture
 
 The application follows a simple Flask-based architecture:
@@ -81,7 +80,8 @@ Flask Backend
   │
   ▼
 Chat Response
-
+```
+---
 
 🧠 How It Works
 
@@ -149,12 +149,9 @@ Rithikka
 ⭐ If you found this project useful, feel free to star the repository!
 
 
+
 ### After pasting this into `README.md`
 
-Run:
 
-```bash
-git add README.md
-git commit -m "Update README with project details and testing results"
-git push origin main
+
 
