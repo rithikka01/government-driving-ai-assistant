@@ -150,8 +150,6 @@ Rithikka
 
 
 
-### After pasting this into `README.md`
-
 
 
 
